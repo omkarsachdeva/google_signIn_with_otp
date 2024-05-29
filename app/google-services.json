@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "199671442872",
+    "firebase_url": "https://signup-login-realtime-e56e9-default-rtdb.firebaseio.com",
+    "project_id": "signup-login-realtime-e56e9",
+    "storage_bucket": "signup-login-realtime-e56e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199671442872:android:5f4281518d30ad04a9f34d",
+        "android_client_info": {
+          "package_name": "com.example.chatroom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByVYZOh9UpEBszKpgVDjDne5vK8AZQDyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199671442872:android:9b24808ad202b45ea9f34d",
+        "android_client_info": {
+          "package_name": "com.example.signuploginrealtime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByVYZOh9UpEBszKpgVDjDne5vK8AZQDyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
