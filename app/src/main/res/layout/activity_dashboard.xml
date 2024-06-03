@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84C7E4"
+    tools:context=".dashboard">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/man"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        android:layout_marginTop="72dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="serif"
+        android:text="Welcome to the App"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileImage" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="#ADD1ED"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Let the journey begin!!"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#1C3C55"
+            android:fontFamily="serif"/>
+
+        <ImageView
+            android:id="@+id/github"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/git"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/tweet"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:id="@+id/linkdin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/link"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="200dp"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/insta"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="10dp" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
